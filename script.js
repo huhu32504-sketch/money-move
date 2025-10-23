@@ -1,5 +1,5 @@
 // === CONFIGURE YOUR MAXELPAY LINK HERE ===
-const MAXELPAY_LINK = "https://pay.maxelpay.com/pay/YourMerchantID?amount=0.0015&currency=BTC&reference=order123";
+const MAXELPAY_LINK = "https://checkout.maxelpay.com/invoice?id=MX_INV_686703548";
 
 // === Optional: Replace with your real wallet if not using MaxelPay link ===
 const WALLET_ADDRESS = "KbTNVOClfa4ctIIVO3syWiLmmKurls5x";
