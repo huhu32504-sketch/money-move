@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pay with Crypto - MaxelPay</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Decentralized Service</h1>
+      <p class="tagline">Pay with crypto. No KYC. Instant delivery.</p>
+    </header>
+
+    <main>
+      <div class="product">
+        <h2>Premium Digital Product</h2>
+        <p class="price">0.0015 BTC (~$100)</p>
+        <p class="desc">Get instant access to your digital download after payment.</p>
+      </div>
+
+      <button id="payButton" class="pay-btn">
+        Pay with Crypto (BTC, ETH, USDT)
+      </button>
+
+      <div id="paymentModal" class="modal">
+        <div class="modal-content">
+          <span class="close">×</span>
+          <h3>Complete Your Payment</h3>
+          <p>Send exactly <strong id="amount">0.0015 BTC</strong> to:</p>
+          <div class="qr-container" id="qrCode"></div>
+          <p class="address" id="walletAddress">bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh</p>
+          <p class="note">Payment auto-detected in ~10 seconds.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Powered by <strong>MaxelPay</strong> • Hosted on IPFS • No custody</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrcode.js@1.0.0/lib/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
